@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+											/*Body*/
+body{
+	font-family: 'Poppins', sans-serif;
+}
+h1{
+	font-weight: bold;
+}
+											/*Container*/
+.container{
+	border: 1px solid green;
+}
+
+											/*Navigation*/
+.navLinks li{
+	font-weight: bold;
+	font-size: 1.25rem;
+}
+.navbar-nav > li{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.navPlacering {
+	margin: 2% 0 0 0;
+}
+											/*Julie Sonne*/
+.subtitle {
+	color: #969696;
+}
+											/*Forside content*/
+.projektBilleder img{
+	width: 100%;
+	height: auto;
+	border: 1px solid pink;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container:hover .overlay {
+  opacity: 0.75;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 1.1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

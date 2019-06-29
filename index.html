@@ -7,12 +7,54 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!--CSS stylesheet-->
+	<link rel="stylesheet" href="styles/styles.css">
+	<!--Google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 
-    <title>Hello, world!</title>
+    <title>Julie Sonne</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
-
+	<!--Container-->
+	<div class="container">
+	<!--Navigtion-->
+	<div class="row">
+		<div class="col-3 justify-content-center navPlacering">
+		<h1>Julie Sonne</h1>
+		<p class="subtitle">Content Producer</p>
+		</div>
+		<div class="col-9 navPlacering">
+			<nav class="navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light">
+			  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> 
+				  	<span class="navbar-toggler-icon"></span>
+			  	</button>
+			  	<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+					<ul class="navbar-nav navLinks">
+				  	<li class="nav-item"> <a class="nav-link active"  href="#">Projekter</a></li>
+				  	<li class="nav-item"> <a class="nav-link" href="#">Omkring</a></li>
+				  	<li class="nav-item"> <a class="nav-link" href="#">Kontakt</a></li>
+					</ul>
+			  	</div>
+			</nav>
+		</div>
+	</div>
+	
+	<!--Content-->
+	<div class="row">
+		<div class="col-md-6 col-6 projektBilleder">
+			<img src="images/boligplus1.gif" alt="BoligPlus" class="image">
+ 	 		<div class="overlay">
+    		<div class="text">BoligPlus</div>
+  		</div>
+	</div>
+		<div class="col-md-6 col-6 projektBilleder">
+			<img src="images/port2.jpg" alt="Porfolio" class="image">
+ 	 		<div class="overlay">
+    		<div class="text">Portfolio</div>
+  		</div>
+	</div>
+	<!--Container slut-->
+	</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
