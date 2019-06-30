@@ -32,10 +32,11 @@ h1{
 .projektBilleder img{
 	width: 100%;
 	height: auto;
+	margin: 3% 0 0 0;
 }
 /*https://codepen.io/ArnaudBalland/pen/vGZKLr*/
 .content .content-overlay {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.75);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -83,7 +84,6 @@ h1{
 .content-details h3{
   color: black;
   font-weight: 500;
-  letter-spacing: 0.15em;
   margin-bottom: 0.5em;
 }
 
@@ -94,5 +94,11 @@ h1{
 
 .fadeIn-top{
   top: 20%;
+}
+											/*Medium*/
+@media only screen and (max-width: 768px){}
+											/*Small*/
+@media only screen and (max-width: 375px){
+
 }
 
