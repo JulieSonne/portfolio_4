@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6{
 	height: auto;
 	margin: 4% 0 0 0;
 }
-/*https://codepen.io/ArnaudBalland/pen/vGZKLr*/
+
 .content .content-overlay {
   background: rgba(255, 255, 255, 0.75);
   position: absolute;
@@ -99,32 +99,14 @@ h1, h2, h3, h4, h5, h6{
   top: 20%;
 }
 											/*Breadcrumbs*/
-.breadcrumb{
-	background-color: white;
-	margin-left: 2%;
+.bredcrumbs {
+	display: flex;
+	justify-content: flex-end;
 }
-ul.breadcrumb {
-  padding: 10px 16px;
-  list-style: none;
-}
-ul.breadcrumb li {
-  display: inline;
-  font-size: 0.8rem;
-}
-ul.breadcrumb li+li:before {
+a.breadcrumbs p+p:before {
   padding: 8px;
   color: black;
   content: "/\00a0";
-}
-ul.breadcrumb li a {
-  color: #959595;
-  text-decoration: none;
-}
-ul.breadcrumb li a:hover {
-  color: #01447e;
-}
-.sidsteCrumb{
-	font-weight: bold;
 }
 
 											/*Medium*/
