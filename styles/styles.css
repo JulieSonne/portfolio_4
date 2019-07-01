@@ -14,7 +14,14 @@ h1, h2, h3, h4, h5, h6{
 											/*Container*/
 .container{
 }
-
+											/*Logo*/
+.logo{
+	color: black;
+}
+.logo:hover {
+	text-decoration: none;
+	color: black;
+}
 											/*Navigation*/
 .navLinks li{
 	font-weight: bold;
@@ -99,14 +106,11 @@ h1, h2, h3, h4, h5, h6{
   top: 20%;
 }
 											/*Breadcrumbs*/
-.bredcrumbs {
-	display: flex;
-	justify-content: flex-end;
-}
-
 .breadcrumb{
 	background-color: white;
 	margin-left: 2%;
+	display: flex;
+	justify-content: flex-end;
 }
 ul.breadcrumb {
   padding: 10px 16px;
