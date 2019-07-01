@@ -103,10 +103,30 @@ h1, h2, h3, h4, h5, h6{
 	display: flex;
 	justify-content: flex-end;
 }
-a.breadcrumbs p+p:before {
+
+.breadcrumb{
+	background-color: white;
+	margin-left: 2%;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1rem;
+}
+ul.breadcrumb li+li:before {
   padding: 8px;
   color: black;
   content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #959595;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: black;
 }
 
 											/*Medium*/
