@@ -105,6 +105,13 @@ h1, h2, h3, h4, h5, h6{
 .fadeIn-top{
   top: 20%;
 }
+											/*Tilbage*/
+.tilbage{
+	color: grey;
+}
+.tilbage:hover{
+	color: black;
+}
 											/*Breadcrumbs*/
 .breadcrumb{
 	background-color: white;
@@ -132,6 +139,9 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: black;
 }
+											/*Kontakt*/
+
+    
 
 											/*Medium*/
 @media only screen and (max-width: 768px){}
