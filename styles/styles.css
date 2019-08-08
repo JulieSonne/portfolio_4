@@ -139,6 +139,18 @@ ul.breadcrumb li a {
 ul.breadcrumb li a:hover {
   color: black;
 }
+											/*Knap*/
+.knap a{
+	color: black;
+	padding: 2% 3% 2% 3%;
+	border: 2px solid black;
+	text-decoration: none;
+}
+											/*Content*/
+.billeder img {
+	height: auto;
+	width: 95%;
+}
 											/*Kontakt*/
 input {
 	width: 100%; 
