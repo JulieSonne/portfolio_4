@@ -38,8 +38,9 @@ p {
 	text-decoration: none;
 	color: black;
 }
-.logo img {
-	width: 95%;
+											/*Name*/
+.name img {
+	width: 50%;
 	height: auto;
 }
 											/*Navigation*/
