@@ -8,11 +8,24 @@ body{
 h1, h2, h3, h4, h5, h6{
 	font-weight: bold;
 }
+
+p {
+	line-height: 2;
+}
+
 .skub{
 	margin: 3% 0 0 0;
 }
+
+.skub2 {
+	margin: 6% 0 0 0;
+}
+
+.skub3 {
+	margin: 1.5% 0 0 0;
+}
 .skubknap {
-	padding: 3% 0 0 0;
+	padding: 6% 0 0 0;
 }
 											/*Container*/
 .container{
@@ -24,6 +37,10 @@ h1, h2, h3, h4, h5, h6{
 .logo:hover {
 	text-decoration: none;
 	color: black;
+}
+.logo img {
+	width: 95%;
+	height: auto;
 }
 											/*Navigation*/
 .navLinks li{
