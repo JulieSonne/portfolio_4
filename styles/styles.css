@@ -27,6 +27,12 @@ p {
 .skubknap {
 	padding: 6% 0 0 0;
 }
+											/*Links*/
+.tekstLinks a {
+	text-decoration: none; 
+	font-weight: bold; 
+	color: black;
+}
 											/*Container*/
 .container{
 }
