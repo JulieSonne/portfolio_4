@@ -214,7 +214,13 @@ textarea {
     
 
 											/*Medium*/
-@media only screen and (max-width: 768px){}
+@media only screen and (max-width: 768px){
+	
+.skub-md {
+	padding: 10% 0 0 0;
+	border: 1px solid red;
+}
+}
 											/*Small*/
 @media only screen and (max-width: 375px){
 
