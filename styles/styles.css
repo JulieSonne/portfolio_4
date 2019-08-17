@@ -30,6 +30,9 @@ p {
 .skubknap {
 	padding: 6% 0 0 0;
 }
+.copy {
+	color: #4c4c4c;
+}
 											/*Links*/
 .tekstLinks a {
 	text-decoration: none; 
