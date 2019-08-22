@@ -27,9 +27,7 @@ p {
 .skub4 {
 	margin: 9% 0 0 0;
 }
-.skubknap {
-	padding: 6% 0 0 0;
-}
+
 .copy {
 	color: #4c4c4c;
 }
@@ -178,6 +176,7 @@ ul.breadcrumb li a:hover {
 	padding: 2% 3% 2% 3%;
 	border: 2px solid black;
 	text-decoration: none;
+	margin: 0 1% 0 0;
 }
 											/*Content*/
 .billeder img {
